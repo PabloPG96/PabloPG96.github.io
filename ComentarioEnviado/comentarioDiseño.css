@@ -1,0 +1,463 @@
+@font-face {
+    font-family: 'KaushanS';
+    src: url('../fonts/KaushanScript-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Catamaran';
+    src: url('../fonts/Catamaran-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Baby';
+    src: url('../fonts/OoohBaby-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #EAEAEA;
+    height: auto;
+}
+
+/*
+------------------------------------------------------------------------------------------------------
+Encabezado
+------------------------------------------------------------------------------------------------------
+*/
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Para asegurarse de que el header esté por encima de otros elementos */
+
+}
+
+#header #logotipo img {
+    max-height: 80px;
+    max-width: 100%;
+}
+
+#nav-menuOpciones {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#header nav ul li {
+    margin: 0 16px; /* Aumenta la separación entre las opciones */
+}
+
+#header nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Catamaran';
+}
+
+#header nav ul li a:hover {
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0px;
+}
+
+#general {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+}
+
+#general > div {
+    flex: 1 1 300px;
+    padding: 0px;
+}
+
+#general img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*
+------------------------------------------------------------------------------------------------------
+Zona 1
+------------------------------------------------------------------------------------------------------
+*/
+
+#zona1 {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#check{
+    margin-top: 50px;
+}
+
+#texto1Zona1 p {
+    color: black;
+    font-size: 72px;
+    font-family: 'KaushanS';
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#texto2Zona1 p {
+    color: black;
+    font-size: 40px;
+    font-family: 'Baby';
+    margin-bottom: 40px;
+}
+
+#btn1{
+    border: 5px solid #9C866C;
+    width: 88%;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    align-content: center;
+}
+
+#btn2{
+    background-color: #9C866C;
+    width: 88%;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 25px;
+    align-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+#btn1 p{
+    color: #9C866C;
+    font-size: 30px;
+    font-family: 'KaushanS';
+
+}
+
+#btn2 p{
+    color: #F1EEEE;
+    font-size: 30px;
+    font-family: 'KaushanS';
+}
+
+#btn1:hover{
+        transform: scale(1.05); /* Hacer la tarjeta 20% más grande */
+        transition: transform 0.3s ease;
+        background-color: #d8d8d8;    
+}
+
+#btn2:hover{
+    transform: scale(1.05); /* Hacer la tarjeta 20% más grande */
+    transition: transform 0.3s ease;
+    background-color: #7F511B;    
+}
+
+#lineaArriba{
+    width: 100%;
+    height: 2px;
+    background-color: #9C866C;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* Media queries para responsividad */
+@media (max-width: 1024px) {
+    #texto1Zona1 p {
+        font-size: 60px;
+    }
+
+    #texto2Zona1 p {
+        font-size: 35px;
+    }
+
+    #btn1, #btn2 {
+        height: 90px;
+    }
+
+    #btn1 p, #btn2 p {
+        font-size: 28px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #texto1Zona1 p {
+        font-size: 40px;
+    }
+
+    #texto2Zona1 p {
+        font-size: 25px;
+    }
+
+    #btn1, #btn2 {
+        height: 70px;
+    }
+
+    #btn1 p, #btn2 p {
+        font-size: 24px;
+    }
+
+    #btn2 {
+        margin-bottom: 20px;
+    }
+
+    #check{
+        width: 80px; /* Ajuste para hacer responsivo */
+    }
+}
+
+@media (max-width: 480px) {
+    #texto1Zona1 p {
+        font-size: 30px;
+    }
+
+    #texto2Zona1 p {
+        font-size: 20px;
+    }
+
+    #btn1, #btn2 {
+        height: 60px;
+    }
+
+    #btn1 p, #btn2 p {
+        font-size: 20px;
+    }
+
+    #btn2 {
+        margin-bottom: 25px;
+    }
+
+    #check{
+        width: 60px; /* Ajuste para hacer responsivo */
+    }
+}
+
+/*
+------------------------------------------------------------------------------------------------------
+Pie de pagina
+------------------------------------------------------------------------------------------------------
+*/
+
+#footer{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/*Esto esta aquì porque me equivoque con los absoluts y el div #general del html*/
+#footer #footerFondo {
+    height: 400px;
+    background-color: #000000;
+    font-size: 2em;
+    font-family: 'KaushanS';
+    padding-top: 60px;
+}
+
+#infoPie{    
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#infoPie a{    
+    text-decoration: none;
+    font-family: 'Catamaran';
+    color: #F1EEEE;
+}
+
+.columnas{
+    display: grid;
+    text-align: left;
+    margin-right: 60px;
+}
+
+.subPie{
+    font-family: 'KaushanS';
+    color: #9C866C;
+    font-size: 26px;
+}
+
+#logoPie{
+    margin-right: 20px;
+}
+
+#linea{
+    width: 100%;
+    height: 2px;
+    background-color: #F1EEEE;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+#fin{
+    display: flex;
+    gap: 0px;
+    color: #9C866C;
+    font-size: 20px;
+    justify-content: center;
+}
+#fin #anio{
+    color: #F1EEEE;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    #footer #footerFondo {
+        font-size: 0.4em;
+    }
+
+    .columnas {
+        margin-right: 30px;
+    }
+
+    .subPie {
+        font-size: 18px;
+
+    }
+
+    #infoPie {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    #fin {
+        font-size: 14px;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    #footer #footerFondo {
+        font-size: 0.4em;
+        padding-top: 25px;
+        height: 200px;
+    }
+
+    .columnas {
+        margin-right: 10px;
+    }
+
+    .subPie {
+        font-size: 10px;
+
+    }
+
+    #logoPie{
+        width: 50px;
+        height: 53px;
+        margin-right: 15px;
+    }
+
+    #infoPie {
+        font-size: 7px;
+        margin-bottom: 10px;
+    }
+
+    #infoPie a:hover {
+        transform: scale(1.01); /* Hacer la tarjeta 20% más grande */
+        transition: transform 0.3s ease;
+    }
+
+    #fin {
+        font-size: 8px;
+        gap: 5px;
+        margin-top: 0px;
+    }
+
+    .redes{
+        width: 17px;
+        height: 17px;
+    }
+
+    #line{
+        margin-bottom: 4px;
+    }
+}
+
+@media (max-width: 480px) {
+    #footer #footerFondo {
+        font-size: 0.4em;
+        padding-top: 25px;
+        height: 190px;
+    }
+
+    .columnas {
+        margin-right: 10px;
+    }
+
+    .subPie {
+        font-size: 10px;
+
+    }
+
+    #logoPie{
+        width: 50px;
+        height: 53px;
+        margin-right: 15px;
+    }
+
+    #infoPie {
+        font-size: 7px;
+        margin-bottom: 10px;
+    }
+
+    #fin {
+        font-size: 8px;
+        gap: 5px;
+        margin-top: 0px;
+    }
+
+    .redes{
+        width: 17px;
+        height: 17px;
+    }
+
+    #line{
+        margin-bottom: 4px;
+    }
+
+}

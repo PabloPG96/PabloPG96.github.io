@@ -1,0 +1,176 @@
+
+
+/* Estilos para Zona2 */
+@media only screen and (max-width: 1180px) and (min-width: 800px) {
+    #texto1Zona2 {
+        font-size: 20px;
+
+    }
+
+    #texto2Zona2 {
+        font-size: 19.5px;
+
+    }
+
+    #texto3Zona2 {
+        font-size: 20px;
+    }
+
+    #botonZona2 {
+        width: 200px;
+        height: 60px;
+        font-size: 16px;
+    }
+}
+
+/* Estilos para  Zona2*/
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+    #texto1Zona2 {
+        font-size: 14px;
+
+    }
+
+    #texto2Zona2 {
+        font-size: 14px;
+    }
+
+    #texto3Zona2 {
+        font-size: 16px;
+    }
+
+    #texto4Zona2 {
+        font-size: 14px;
+    }
+
+    #Icon1Zona2 {
+        width: 21px;
+        height: 21px;
+    }
+
+    #texto5Zona2 {
+        font-size: 14px;
+    }
+
+    #Icon2Zona2 {
+        width: 21px;
+        height: 21px;
+    }
+
+    #texto6Zona2 {
+        font-size: 14px;
+    }
+
+    #Icon3Zona2 {
+        width: 21px;
+        height: 21px;
+    }
+
+    #botonZona2 {
+        width: 160px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+}
+
+/* Estilos para  Zona2*/
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+    #texto1Zona2 {
+        font-size: 12px;
+
+    }
+
+    #texto2Zona2 {
+        font-size: 11px;
+    }
+
+    #texto3Zona2 {
+        font-size: 14px;
+    }
+
+
+    #texto4Zona2 {
+        font-size: 11px;
+    }
+
+    #Icon1Zona2 {
+        width: 15px;
+        height: 15px;
+    }
+
+    #texto5Zona2 {
+        font-size: 11px;
+    }
+
+    #Icon2Zona2 {
+        width: 15px;
+        height: 15px;
+    }
+
+    #texto6Zona2 {
+        font-size: 11px;
+    }
+
+    #Icon3Zona2 {
+        width: 15px;
+        height: 15px;
+    }
+
+    #botonZona2 {
+        width: 110px;
+        height: 30px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) and (min-width: 300px) {
+    #texto1Zona2 {
+        font-size: 10px;
+
+    }
+
+    #texto2Zona2 {
+        font-size: 9px;
+    }
+
+    #texto3Zona2 {
+        font-size: 9px;
+        width: 43%;
+    }
+
+
+    #texto4Zona2 {
+        top: 57%;
+        font-size: 6px;
+    }
+
+    #Icon1Zona2 {
+        top: 57%;
+        width: 10px;
+        height: 10px;
+    }
+
+    #texto5Zona2 {
+        font-size: 6px;
+    }
+
+    #Icon2Zona2 {
+        width: 10px;
+        height: 10px;
+    }
+
+    #texto6Zona2 {
+        font-size: 6px;
+    }
+
+    #Icon3Zona2 {
+        width: 10px;
+        height: 10px;
+    }
+
+    #botonZona2 {
+        width: 110px;
+        height: 30px;
+        font-size: 10px;
+    }
+}

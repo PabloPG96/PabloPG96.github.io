@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="diseñoReserva.css">
+    <title>Reservar</title>
+</head>
+<body>    
+    <header id="header">
+        <div id="logotipo">
+            <img src="../img/LOGO.png" alt="Logotipo de la imagen">
+        </div>
+        <!--Menú de la página-->
+        <nav id="nav-menuOpciones">
+            <ul>
+                <li>
+                    <a href="../Inicio.html">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="../Nosotros/Nosotros.html">Nosotros</a>
+                </li>
+
+                <li>
+                    <a href="../Servicios/Servicios.html">Servicios</a>
+                </li>
+
+                <li>
+                    <a href="../Reserva/reserva.html">Reserva</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+     <!--Cuerpo de la Página-->
+    <main>
+        <div id="general">
+            <div id="zona1">
+                <img id="imgInicioReserva" src="../img/InicioReserva.png" alt="InicioReserva">
+                <p id="texto1Zona1">Reserva</p>                
+            </div>
+            <div id="zona2">
+                <p id="texto1Zona2">Elige a un profesional</p> 
+                <div id="carrusel-container">
+                    <button id="izq" class="izqIMG"></button>
+                    <div id="carrusel">
+                        <div class="tarjeta" id="tarjeta1">                            
+                            <img src="../img/Hilda.png" alt="Hilda">
+                            <p class="tarjetaTP">Hilda</p> 
+                            <p class="tarjetaTS">Creativa</p>
+                        </div>
+                        <div class="tarjeta" id="tarjeta2">
+                            <img src="../img/Samuel.png" alt="Samuel">
+                            <p class="tarjetaTP">Samuel D. Roger</p> 
+                            <p class="tarjetaTS">Veterano</p>
+                        </div>
+                        <div class="tarjeta" id="tarjeta3">
+                            <img src="../img/Milles.png" alt="Milles">
+                            <p class="tarjetaTP">Milles B. Parker</p> 
+                            <p class="tarjetaTS">Moderno</p>
+                        </div>
+                        <div class="tarjeta" id="tarjeta4">
+                            <img src="../img/Marceline.png" alt="Marceline">
+                            <p class="tarjetaTP">Marceline Abadeer</p> 
+                            <p class="tarjetaTS">Vanguardista</p>
+                        </div>
+                        <div class="tarjeta" id="tarjeta5">
+                            <img src="../img/Eliot.png" alt="Eliot">
+                            <p class="tarjetaTP">Edward Elric</p> 
+                            <p class="tarjetaTS">Innovador</p>
+                        </div>
+                    </div>
+                    <button id="der" class="derIMG"></button>
+                </div>
+                <div id="fondo"></div>                
+            </div>
+            <div id="zona3">                
+                <p id="texto1Zona3">Tipo de servicio</p> 
+                <div id="servicios-container">
+                    <div class="tarjeta-servicio">
+                        <p class="servicio">Peinado</p>
+                        <p class="duracion">35 min</p>
+                        <div class="caja-precio">
+                            <p class="precio">$70</p>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta-servicio">
+                        <p class="servicio">Combo bigote</p>
+                        <p class="duracion">60 min</p>
+                        <div class="caja-precio">
+                            <p class="precio">$130</p>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta-servicio">
+                        <p class="servicio">Combo barba</p>
+                        <p class="duracion">60 min</p>
+                        <div class="caja-precio">
+                            <p class="precio">$130</p>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta-servicio">
+                        <p class="servicio">Corte para adulto</p>
+                        <p class="duracion">40 min</p>
+                        <div class="caja-precio">
+                            <p class="precio">$100</p>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta-servicio">
+                        <p class="servicio">Corte para niño</p>
+                        <p class="duracion">40 min</p>
+                        <div class="caja-precio">
+                            <p class="precio">$70</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tarjeta-servicio">
+                        <p class="servicio">Mantenimiento EX</p>
+                        <p class="duracion">10 min</p>
+                        <div class="caja-precio">
+                            <p class="precio">$30</p>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta-servicio">
+                        <p class="servicio">Afeitado</p>
+                        <p class="duracion">30 min</p>
+                        <div class="caja-precio">
+                            <p class="precio">$60</p>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta-servicio">
+                        <p class="servicio">Recorte de barba</p>
+                        <p class="duracion">20 min</p>
+                        <div class="caja-precio">
+                            <p class="precio">$49</p>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta-servicio">
+                        <p class="servicio">Recorte de bigote</p>
+                        <p class="duracion">20 min</p>
+                        <div class="caja-precio">
+                            <p class="precio">$49</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="zona4">
+            <p id="texto1Zona4">Elige un horario</p> 
+            <div id="contenedor-cita">
+                <div id="fecha-contenedor">
+                    <img src="../img/Calendario.png" alt="Calendario">
+                    <input type="text" id="fecha-cita" name="fecha-cita" placeholder="DD/MM/AAAA">
+                </div>                
+                <div id="hora-contenedor">
+                    <img id="reloj" src="../img/Reloj.png" alt="Reloj">
+                    <div class="spiner">
+                        <img id="incrementar1" src="../img/FlechaArribaAM.png" alt="FlechaArribaAM">
+                        <input type="text" id="fecha-cita1" name="fecha-cita" value="AM" readonly>
+                        <img id="decrementar1" src="../img/FlechaAbajoAM.png" alt="FlechaAbajoAM">
+                    </div>
+                    <div class="spiner">
+                        <img id="incrementar2" src="../img/FlechaArribaAM.png" alt="FlechaArribaAM">
+                        <input type="text" id="fecha-cita2" name="fecha-cita" value="00" readonly>
+                        <img id="decrementar2" src="../img/FlechaAbajoAM.png" alt="FlechaAbajoAM">
+                    </div>
+                    <p>:</p>
+                    <div class="spiner">
+                        <img id="incrementar3" src="../img/FlechaArribaAM.png" alt="FlechaArribaAM">
+                        <input type="text" id="fecha-cita3" name="fecha-cita" value="00" readonly>
+                        <img id="decrementar3" src="../img/FlechaAbajoAM.png" alt="FlechaAbajoAM">
+                    </div>
+                </div>
+            </div>
+            <div id="sombra-contenedor"></div>
+            <img id="IMGhorario" src="../img/FondoHorario.png" alt="FondoHorario">
+        </div>
+        <div id="zona5">
+            <p id="texto1Zona5">Datos personales</p> 
+            <div id="contenedor-formulario-btn">
+                <div id="formulario">
+                    <div id="nombreCliente">
+                        <img class="iconInfo" src="../img/PersonaNombre.png" alt="Nombre">
+                        <input type="text" id="formulario1" name="formulario1" placeholder="Nombre">
+                        <input type="text" id="formulario2" name="formulario2" placeholder="Apellido">
+                    </div>
+                    <div id="telefonoCliente">
+                        <img class="iconInfo" src="../img/telefonoPersonal.png" alt="telefono">
+                        <input type="text" id="formulario3" name="formulario3" placeholder="Telefono">
+                    </div>
+                    <div id="emailCliente">
+                        <img class="iconInfo" src="../img/EmailPersonal.png" alt="email">
+                        <input type="text" id="formulario4" name="formulario4" placeholder="Email">
+                    </div>
+                </div>
+                <p id="fraseFinal">¡A un paso de obtener tu nuevo <br> estilo!</p>
+               <a href="../ConfirmacionReserva/ConfirmacionReserva.html" id="btnlink"><div id="boton">
+                    <p>Reservar</p>
+                </div></a>
+            </div>
+            <img id="FondoFormulario" src="../img/FondoFormulario.png" alt="FondoFormulario">            
+        </div>        
+        <div id="footer">
+            <div id="footerFondo">
+                <div id="infoPie">
+                    <img id="logoPie" src="../img/LOGOPiePagina.png" alt="">
+                    <div class="columnas">
+                        <p class="subPie">Rolly Beards</p>
+                        <a href="../Inicio.html">Inicio</a>
+                        <a href="../Nosotros/Nosotros.html">Nosotros</a>
+                        <a href="../Servicios/Servicios.html">Servicios</a>
+                        <a href="../Reserva/reserva.html">Reserva</a>
+                    </div>
+                    <div class="columnas">
+                        <p class="subPie">Contacto</p>
+                        <a href="https://maps.app.goo.gl/J21NHxU5unUH6Vv48">Carretera Nacional S/N, KM 202, <br>Centro, 59514 Jiquilpan de <br>Juárez, Mich.</a>
+                        <a href="https://wa.me/3531156287">Tel. +52 353 533 1126</a>
+                    </div>
+                    <div class="columnas">
+                        <p class="subPie">Créditos</p>
+                        <a href="https://www.instagram.com/pablo_pizano_galvez?igsh=dHlzMzlla3p6Z2J0">Pablo Y. Pizano Gálvez</a>
+                        <a href="https://www.instagram.com/jhonnycastillo_h?igsh=MWQzMGFlaGc1MTBwZQ==">C. Antonio Escalera Amezcua</a>
+                        <a href="https://www.instagram.com/soy__tonyy?igsh=MTNzcXBnazI3Zmx2">Jonathan F. Castillo Camarena</a>
+                    </div>
+                </div>
+                <div id="redesPie">
+                    <a href="https://www.instagram.com/micro_tenko?igsh=bmdyeWY4ZWV3bzI5"><img class="redes" src="../img/instagramPie.png" alt=""></a>
+                    <a href="https://www.facebook.com/francisco.a.guerrero.98?mibextid=ZbWKwL"><img class="redes" src="../img/facebookPie.png" alt=""></a>
+                    <a href="https://x.com/KRUesports"><img class="redes" src="../img/xPie.png" alt=""></a>
+                    <a href="https://www.youtube.com/@elfedelobo"><img class="redes" src="../img/youtubePie.png" alt=""></a>
+                </div>
+                <div id="linea"></div>
+                <div id="fin">
+                    <p id="anio">© 2024_</p> <p>Rolly beards by team PCJ</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="reservaLogic.js"></script>
+</body>
+
+</html>

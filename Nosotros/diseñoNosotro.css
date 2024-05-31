@@ -1,0 +1,470 @@
+@font-face {
+    font-family: 'KaushanS';
+    src: url('../fonts/KaushanScript-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Catamaran';
+    src: url('../fonts/Catamaran-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Baby';
+    src: url('../fonts/OoohBaby-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #121B22;
+    height: auto;
+}
+
+#header {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    /* Para asegurarse de que el header esté por encima de otros elementos */
+
+}
+
+#header #logotipo img {
+    max-height: 80px;
+    max-width: 100%;
+}
+
+#nav-menuOpciones {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#header nav ul li {
+    margin: 0 10px;
+    /* Aumenta la separación entre las opciones */
+}
+
+#header nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Catamaran';
+}
+
+#header nav ul li a:hover {
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0px;
+}
+
+#general {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+}
+
+#general>div {
+    flex: 1 1 300px;
+    padding: 0px;
+}
+
+#general img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+@media only screen and (max-width: 315px){
+
+    #header #logotipo img {
+        max-height: 50px;
+        max-width: 100%;
+    }
+    #header nav ul li {
+    margin: 0 2%;
+    /* Aumenta la separación entre las opciones */
+}
+
+#header nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 80%;
+    font-family: 'Catamaran';
+}
+
+@media only screen and (max-width: 305px){
+    #header nav ul li {
+        margin: 0 2%;
+        /* Aumenta la separación entre las opciones */
+    }
+    
+    #header nav ul li a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 60%;
+        font-family: 'Catamaran';
+    }
+    #header #logotipo img {
+        max-height: 40px;
+        max-width: 100%;
+    }
+}
+
+}
+
+/* Zona 1 */
+#zona1 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+#imgInicioNosotros {
+    width: 100%;
+    height: auto;
+}
+
+#texto1Zona1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 47px;
+    font-family: 'KaushanS';
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#cuerpo1 > div{
+    background-color: #000000;
+    color: #000000;
+
+}
+
+#imgPoster1 {
+    width: 10%;
+    height: auto;
+    transform: translate(830%, -30%);
+    z-index: 3;
+}
+#imgPoster2 {
+    width: 13%;
+    height: auto;
+    transform: translate(544%, 10%);
+    z-index: 2;
+}
+#imgPoster3 {
+    width: 13%;
+    height: auto;
+    transform: translate(635%, 43%);
+    z-index: 1;
+}
+#imgInicios{
+    width: 45%;
+    height: auto;
+    transform: translate(38%, 55%);
+    z-index: 2;
+}
+#imgLetania{
+    width: 40%;
+    height: auto;
+    transform: translate(74%, 53%);
+    z-index: 2;
+}
+#imgAcerca{
+    width: 25%;
+    height: auto;
+    transform: translate(70%, 140%);
+    z-index: 2;
+}
+
+#posters img{
+    position: absolute;
+}
+
+.script{
+    position: absolute;
+    
+    font-family: 'KaushanS';
+}
+
+#acerca{
+    color: #E1C8AA;
+    font-size: 180%;
+    transform: translate(85%, 180%);
+    z-index: 2;
+}
+
+#negocio{
+    color: white;
+    font-size: 330%;
+    transform: translate(58%, 68%);
+    z-index: 2;
+}
+
+#imgPoster4 {
+    width: 18%;
+    height: auto;
+    transform: translate(35%, 5%);
+    z-index: 1;
+}
+
+#letania{
+    position: absolute;
+    color: white;
+    font-family: 'Baby';
+    font-size: 135%;
+    transform: translate(70%, 48%);
+}
+
+#imgZona2{
+    width: 100%;
+    height: auto;
+    transform: translate(0%, 150%);
+    z-index: 1;
+}
+
+#imgZona3{
+    width: 100%;
+    height: auto;
+    transform: translate(0%, 210%);
+    z-index: 1;
+}
+
+/*
+------------------------------------------------------------------------------------------------------
+Pie de pagina
+------------------------------------------------------------------------------------------------------
+*/
+
+#footer {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#footer #footerFondo {
+    margin-top: 1050px;
+    height: 400px;
+    background-color: #000000;
+    font-size: 2em;
+    font-family: 'KaushanS';
+    padding-top: 60px;
+}
+
+#infoPie {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#infoPie a {
+    text-decoration: none;
+    font-family: 'Catamaran';
+    color: #F1EEEE;
+}
+
+.columnas {
+    display: grid;
+    text-align: left;
+    margin-right: 60px;
+}
+
+.subPie {
+    font-family: 'KaushanS';
+    color: #9C866C;
+    font-size: 26px;
+}
+
+#logoPie {
+    margin-right: 20px;
+}
+
+#linea {
+    width: 100%;
+    height: 2px;
+    background-color: #F1EEEE;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+#fin {
+    display: flex;
+    gap: 0px;
+    color: #9C866C;
+    font-size: 20px;
+    justify-content: center;
+}
+
+#fin #anio {
+    color: #F1EEEE;
+}
+
+#infoPie a:hover {
+    font-weight: bolder;    
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    #footer #footerFondo {
+        font-size: 0.4em;
+        margin-top: 800px;
+    }
+
+    .columnas {
+        margin-right: 30px;
+    }
+
+    .subPie {
+        font-size: 18px;
+
+    }
+
+    #infoPie {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    #fin {
+        font-size: 14px;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    #footer #footerFondo {
+        font-size: 0.4em;
+        height: 200px;
+        margin-top: 460px;
+    }
+
+    .columnas {
+        margin-right: 10px;
+    }
+
+    .subPie {
+        font-size: 10px;
+
+    }
+
+    #logoPie {
+        width: 50px;
+        height: 53px;
+        margin-right: 15px;
+    }
+
+    #infoPie {
+        font-size: 7px;
+        margin-bottom: 10px;
+    }
+
+    #fin {
+        font-size: 8px;
+        gap: 5px;
+        margin-top: 0px;
+    }
+
+    .redes {
+        width: 17px;
+        height: 17px;
+    }
+
+    #line {
+        margin-bottom: 4px;
+    }
+}
+
+@media (max-width: 480px) {
+    #footer #footerFondo {
+        font-size: 0.4em;
+        padding-top: 25px;
+        height: 190px;
+        margin-top: 360px;
+
+    }
+
+    .columnas {
+        margin-right: 10px;
+    }
+
+    .subPie {
+        font-size: 10px;
+
+    }
+
+    #logoPie {
+        width: 50px;
+        height: 53px;
+        margin-right: 15px;
+    }
+
+    #infoPie {
+        font-size: 7px;
+        margin-bottom: 10px;
+    }
+
+    #fin {
+        font-size: 8px;
+        gap: 5px;
+        margin-top: 0px;
+    }
+
+    .redes {
+        width: 17px;
+        height: 17px;
+    }
+
+    #line {
+        margin-bottom: 4px;
+    }
+
+}
+
+
