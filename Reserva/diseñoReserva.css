@@ -86,8 +86,7 @@ Encabezado
 }
 
 #header nav ul li a:hover {
-    font-weight: bolder;
-    font-size: 19px;
+    font-weight: bolder;    
 }
 
 main {
